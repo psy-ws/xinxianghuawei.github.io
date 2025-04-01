@@ -18,6 +18,12 @@
           </div>
           <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
         </a>
+        <br>
+        {% if forloop.index == 1 %}
+        <p style="text-align: center;">华伟旋转式隧道窑</p>
+        {% elsif forloop.index == 2 %}
+        <p style="text-align: center;">河南华伟四川仁寿旋转窑</p>
+        {% endif %}
       </div>
       {% endfor %}
     </div>

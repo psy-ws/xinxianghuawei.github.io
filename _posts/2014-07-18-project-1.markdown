@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: 华伟旋转式隧道窑
+modal-id: 1
 date: 2017-06-23
 img: 1.jpg
 alt: image-alt
